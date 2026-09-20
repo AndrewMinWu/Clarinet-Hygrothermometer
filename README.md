@@ -38,7 +38,7 @@ Having played the clarinet for over 8 years, I've grown to love my wooden instru
    - Push Buttons
 
 
-### PCB, Schematic, 3D Render
+### PCB, Schematic, Finished Board
 The Schematic and PCB were designed in KiCad.
 
 <img src="https://github.com/user-attachments/assets/faca2936-ddf8-464d-a931-f0d31780c822" alt="Schematic" width="100%"/>
