@@ -77,6 +77,6 @@ The Schematic and PCB were designed in KiCad.
 
 
 <div align="center">
-  <p><strong>My messy home Workbench</strong></p>
+  <p><strong>My messy home workbench</strong></p>
   <img src="https://github.com/user-attachments/assets/867cf211-ea1a-448b-9fba-3c455d99b579" alt="Workbench" width="400"/>
 </div>
