@@ -200,10 +200,10 @@ void app_main(void) {
             push_to_screen();
 
         } else {
-            ESP_LOGE(TAG, "Sensor read failed");
+            ESP_LOGE(TAG, "Sen  sor read failed");
         }
 
         // Suspend task for 2 seconds to yield CPU time
-        vTaskDelay(pdMS_TO_TICKS(2000));
+        vTaskDelay(pdMS_TO_TICKS(500));
     }
 }
