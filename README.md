@@ -1,5 +1,21 @@
 # Clarinet Hygrothermometer
+![Altium](https://img.shields.io/badge/Altium_Designer-A59259?style=flat-square&logo=altiumdesigner&logoColor=white)
+![KiCad](https://img.shields.io/badge/KiCad-FFFFFF?style=flat-square&logo=kicad&logoColor=blue)
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![ESP-IDF](https://img.shields.io/badge/ESP--IDF-E7352C?style=flat-square&logo=espressif&logoColor=white)
+![FreeRTOS](https://img.shields.io/badge/FreeRTOS-20232A?style=flat-square&logo=freertos&logoColor=white)
+![PlatformIO](https://img.shields.io/badge/PlatformIO-FE7A16?style=flat-square&logo=platformio&logoColor=white)
+![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+
 <table> <tr> <td><img src="https://github.com/user-attachments/assets/32310b38-0417-4cc2-9e28-586226fb1749" alt="My Clarinets" width="400"/></td> <td><img src="https://github.com/user-attachments/assets/88515d74-24d2-487d-8d6f-b6765d1ee2e2" alt="Functioning PCB" width="400"/></td> </tr> </table>
+
+## Repository Structure
+
+```text
+├── hardware/          # Schematic, PCB, and gerber files
+├── firmware/          # ESP-IDF C, using VSCode
+└── docs/              # Datasheets
+```
 
 ## Purpose & Motivation:
 Having played the clarinet for over 8 years, I've grown to love my wooden instrument. However, in February of 2026, my instrument cracked due to a sudden drop in humidity (as my technician pointed out that wintertime brings dryer air). Thus, to prevent future issues and to save money from expensive repairs, I designed a PCB to accurately monitor the humidity and temperature within my clarinet case.
@@ -30,7 +46,7 @@ The Schematic and PCB were designed in KiCad.
 <table width="100%">
   <tr>
     <td width="50%"><img src="https://github.com/user-attachments/assets/1c6d121b-9e13-471a-b5f9-7dac0a3db839" alt="" width="100%"/></td>
-    <td width="50%"><img src="https://github.com/user-attachments/assets/dfbfa52e-25d6-4326-9c1f-8ae7927f5973" alt="" width</tr>
+    <td width="50%"><img src="https://github.com/user-attachments/assets/dfbfa52e-25d6-4326-9c1f-8ae7927f5973" alt="3D Render" width="100%"/></td>
 </table>
 
 
@@ -47,7 +63,6 @@ The Schematic and PCB were designed in KiCad.
 * **Sampling Rate:** 2 Hz FreeRTOS task loop
 * **Display Driver:** Direct 1024-byte screen buffer with custom 5x7 ASCII font rendering (no third-party libraries used)
 ## Assembly & Demonstration
-### Assembly & Demonstration
 
 **Short Demo**  
 <video src="https://github.com/user-attachments/assets/3b9bc241-1b57-4820-86a4-abee198bdf83" width="100%" controls></video>
