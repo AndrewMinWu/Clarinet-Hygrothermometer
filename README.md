@@ -52,7 +52,7 @@ The Schematic and PCB were designed in KiCad.
 
 ### Measurements
 
- I tested the accuracy of the SHT31 by putting the board in an enclosed tupperware container with a 49% Boveda (c) humidity pack, and with a small thermometer. I found the following:
+ I tested the accuracy of the SHT31 by putting the board in an enclosed tupperware container with a 49% Boveda humidity pack, and with a small thermometer. I found the following:
 * **Relative Humidity:** Accurate to ±2%.
 * **Temperature:** Consistently reads ~0.8°C high. I believe this exceeds datasheet tolerances due to the sensor picking up some heat dissipated by the ESP32 (due to their proximity).
 
