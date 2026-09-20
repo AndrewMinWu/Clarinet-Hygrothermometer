@@ -67,7 +67,7 @@ The Schematic and PCB were designed in KiCad.
 **Short Demo**  
 <video src="https://github.com/user-attachments/assets/3b9bc241-1b57-4820-86a4-abee198bdf83" width="100%" controls></video>
 
-* **Assembly:** Hand-soldered all SMD parts and tested the board with a multimeter (checking all voltage readings: VBAT, 3v3, 5V and ensuring no shorts) before flashing firmware.
+* **Assembly:** Hand-soldered all parts and tested the board with a multimeter (checking all voltage readings: VBAT, 3v3, 5V and ensuring no shorts) before flashing firmware.
 
 ## Active Development
 
