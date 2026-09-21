@@ -39,7 +39,7 @@ Having played the clarinet for over 8 years, I've grown to love my wooden instru
 
 
 ### PCB, Schematic, Finished Board
-The Schematic and PCB were designed in KiCad.
+The Schematic and PCB were designed in Altium, however I exported the gerbers (and took photos) in KiCad. All files can be found in the hardware folder. 
 
 <img src="https://github.com/user-attachments/assets/faca2936-ddf8-464d-a931-f0d31780c822" alt="Schematic" width="100%"/>
 
