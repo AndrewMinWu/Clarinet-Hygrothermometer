@@ -38,8 +38,8 @@ Having played the clarinet for over 8 years, I've grown to love my wooden instru
    - Push Buttons
 
 
-### PCB, Schematic, 3D Render
-The Schematic and PCB were designed in KiCad.
+### PCB, Schematic, Finished Board
+The Schematic and PCB were designed in Altium, however I exported the gerbers (and took photos) in KiCad. All files can be found in the hardware folder. 
 
 <img src="https://github.com/user-attachments/assets/faca2936-ddf8-464d-a931-f0d31780c822" alt="Schematic" width="100%"/>
 
@@ -67,7 +67,7 @@ The Schematic and PCB were designed in KiCad.
 **Short Demo**  
 <video src="https://github.com/user-attachments/assets/3b9bc241-1b57-4820-86a4-abee198bdf83" width="100%" controls></video>
 
-* **Assembly:** Hand-soldered all SMD parts and tested the board with a multimeter (checking all voltage readings: VBAT, 3v3, 5V and ensuring no shorts) before flashing firmware.
+* **Assembly:** Hand-soldered all parts and tested the board with a multimeter (checking all voltage readings: VBAT, 3v3, 5V and ensuring no shorts) before flashing firmware.
 
 ## Active Development
 
@@ -77,6 +77,6 @@ The Schematic and PCB were designed in KiCad.
 
 
 <div align="center">
-  <p><strong>My messy home Workbench</strong></p>
+  <p><strong>My messy home workbench</strong></p>
   <img src="https://github.com/user-attachments/assets/867cf211-ea1a-448b-9fba-3c455d99b579" alt="Workbench" width="400"/>
 </div>
