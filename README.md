@@ -71,7 +71,6 @@ The Schematic and PCB were designed in Altium.
 ## Active Development
 
 * **Power Optimization:** Moving to deep-sleep mode to extend battery life beyond the current ~30-hour calculated runtime.
-* **Altium Migration:** Rebuilding the PCB in Altium to gain experience with the software for future projects.
 * **Data Logging:** Adding BLE (Bluetooth Low Energy) services to stream the SHT31 readings to my phone to monitor changes over time (i.e. how does the humidity change depending on the season?).
 
 
