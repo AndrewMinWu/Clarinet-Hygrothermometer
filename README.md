@@ -26,9 +26,9 @@ Having played the clarinet for over 8 years, I've grown to love my wooden instru
 2. MCP73831-2-OT Charge Controller ([Datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf))
 3. AP2112K-3.3 LDO Voltage Regulator ([Datasheet](https://www.diodes.com/assets/Datasheets/AP2112.pdf))
 4. GCT USB4105-GF-A USB-C Receptacle 16P SMD RA ([Datasheet](https://gct.co/files/drawings/usb4105.pdf))
-5. SHT31 Humidity & Temperature Sensor ([Datasheet](https://sensirion.com/media/documents/21373A00/6164175B/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital.pdf))
-6. 3.7V 1100mAh (4.1Wh) Lithium-Polymer Battery
-7. OLED Display Breakout Board (4-pin I2C)
+5. SHT31 Humidity & Temperature Sensor ([Datasheet](https://sensirion.com/media/documents/213E6A3B/63A5A569/Datasheet_SHT3x_DIS.pdf))
+6. OLED Display Breakout Board (4-pin I2C) ([Datasheet](https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf))
+7. 3.7V 1100mAh (4.1Wh) Lithium-Polymer Battery
 8. SHT31 Breakout Board (4-pin I2C)
 9. Passives & Miscellaneous Hardware:
    - Capacitors (0805, Ceramic)
@@ -51,16 +51,18 @@ The Schematic and PCB were designed in Altium.
 
 ### Measurements
 
- I tested the accuracy of the SHT31 by putting the board in an enclosed tupperware container with a 49% Boveda humidity pack, and with a small thermometer. I found the following:
+ I tested the accuracy of the SHT31 by putting the board in an enclosed tupperware container with a 49% Boveda humidity pack, and with a small vertical glass thermometer. I found the following:
 * **Relative Humidity:** Accurate to ±2%.
 * **Temperature:** Consistently reads ~0.8°C high. I believe this exceeds datasheet tolerances due to the sensor picking up some heat dissipated by the ESP32 (due to their proximity).
 
 
 ### Firmware
-* **Language & Framework:** C / ESP-IDF, done using VSCode with PlatformIO 
-* **I2C Configuration:** GPIO 0 (SDA), GPIO 1 (SCL) at 100 kHz
-* **Sampling Rate:** 2 Hz FreeRTOS task loop
-* **Display Driver:** Direct 1024-byte screen buffer with custom 5x7 ASCII font rendering (no third-party libraries used)
+* **Language & Framework:** C / ESP-IDF, built in VSCode with PlatformIO (no external libraries)
+* **I2C Configuration:** Bus at 100 kHz
+* **Peripherals:** SHT31 temperature/humidity sensor and SSD1306 OLED
+* **Display Driver:** Direct SSD1306 register setup with a 1024-byte static buffer
+* **Font & Graphics:** Rendering using a custom 5x7 ASCII lookup table scaled 2x
+* **Sampling & Control:** 2 Hz polling loop
 ## Assembly & Demonstration
 
 **Short Demo**  
