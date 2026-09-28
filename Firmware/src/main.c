@@ -279,3 +279,10 @@ void app_main(void) {
         vTaskDelay(pdMS_TO_TICKS(500));
     }
 }
+
+/*
+    Future Changes:
+    - MAIN PRIORITY: Implement nimBLE server to phone using GATT server -> longer term monitoring
+    - Maybe shorten the ASCII array since its taking up unneeded space (harder to iterate though) 
+    - Implement deep sleep directly from esp-idf (should be simple)
+*/ 
