@@ -1,0 +1,200 @@
+Change Component Comment : Designator=C6 Old Comment=Comment New Comment=0.1u
+Change Component Comment : Designator=R4 Old Comment=Comment New Comment=1k
+Change Component Comment : Designator=C1 Old Comment=Comment New Comment=1u
+Change Component Comment : Designator=C3 Old Comment=Comment New Comment=1u
+Change Component Comment : Designator=C5 Old Comment=Comment New Comment=1u
+Change Component Comment : Designator=3V3 Old Comment=Comment New Comment=3.3V
+Change Component Comment : Designator=R1 Old Comment=Comment New Comment=4.7k
+Change Component Comment : Designator=C2 Old Comment=Comment New Comment=4.7u
+Change Component Comment : Designator=C4 Old Comment=Comment New Comment=4.7u
+Change Component Comment : Designator=R2 Old Comment=Comment New Comment=5.1k
+Change Component Comment : Designator=R3 Old Comment=Comment New Comment=5.1k
+Change Component Comment : Designator=5V Old Comment=Comment New Comment=5V
+Change Component Comment : Designator=R5 Old Comment=Comment New Comment=10k
+Change Component Comment : Designator=R6 Old Comment=Comment New Comment=10k
+Change Component Comment : Designator=R7 Old Comment=Comment New Comment=10k
+Change Component Comment : Designator=C7 Old Comment=Comment New Comment=10u
+Change Component Comment : Designator=U2 Old Comment=Comment New Comment=AP2112K-3.3
+Change Component Comment : Designator=J2 Old Comment=Comment New Comment=Conn_01x02
+Change Component Comment : Designator=U3 Old Comment=Comment New Comment=ESP32-C3-WROOM-02
+Change Component Comment : Designator=GND Old Comment=Comment New Comment=GND
+Change Component Comment : Designator=D1 Old Comment=Comment New Comment=LED
+Change Component Comment : Designator=U1 Old Comment=Comment New Comment=MCP73831-2-OT
+Change Component Comment : Designator=J4 Old Comment=Comment New Comment=OLED Connector
+Change Component Comment : Designator=J3 Old Comment=Comment New Comment=SHT31
+Change Component Comment : Designator=SW1 Old Comment=Comment New Comment=SW_Push
+Change Component Comment : Designator=SW2 Old Comment=Comment New Comment=SW_Push
+Change Component Comment : Designator=J1 Old Comment=Comment New Comment=USB_C_Receptacle_USB2.0_16P
+Change Component Comment : Designator=VBAT Old Comment=Comment New Comment=VBAT
+Change Component Designator: OldDesignator=3V3 NewDesignator=TP3
+Change Component Designator: OldDesignator=5V NewDesignator=TP1
+Change Component Designator: OldDesignator=C1 NewDesignator=C6
+Change Component Designator: OldDesignator=C2 NewDesignator=C4
+Change Component Designator: OldDesignator=C3 NewDesignator=C7
+Change Component Designator: OldDesignator=C4 NewDesignator=C5
+Change Component Designator: OldDesignator=C5 NewDesignator=C1
+Change Component Designator: OldDesignator=C6 NewDesignator=C2
+Change Component Designator: OldDesignator=C7 NewDesignator=C3
+Change Component Designator: OldDesignator=GND NewDesignator=TP2
+Change Component Designator: OldDesignator=R1 NewDesignator=R6
+Change Component Designator: OldDesignator=R2 NewDesignator=R4
+Change Component Designator: OldDesignator=R3 NewDesignator=R5
+Change Component Designator: OldDesignator=R4 NewDesignator=R7
+Change Component Designator: OldDesignator=R5 NewDesignator=R1
+Change Component Designator: OldDesignator=R6 NewDesignator=R2
+Change Component Designator: OldDesignator=R7 NewDesignator=R3
+Change Component Designator: OldDesignator=U1 NewDesignator=U2
+Change Component Designator: OldDesignator=U2 NewDesignator=U3
+Change Component Designator: OldDesignator=U3 NewDesignator=U1
+Change Component Designator: OldDesignator=VBAT NewDesignator=TP4
+Change component parameters: Designator = "C2" ("C4"); Footprint = "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"; UniqueID = "\JSQEVBRY" ("\JSQEVBRY")
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7u"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C3" ("C7"); Footprint = "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"; UniqueID = "\BORIUKRA" ("\BORIUKRA")
+Change component parameters (AddParameter): Name = "Value"; Value = "1u"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C5" ("C1"); Footprint = "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"; UniqueID = "\YEWRDETM" ("\YEWRDETM")
+Change component parameters (AddParameter): Name = "Value"; Value = "1u"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C6" ("C2"); Footprint = "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"; UniqueID = "\XWQXQQBH" ("\XWQXQQBH")
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1u"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C7" ("C3"); Footprint = "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"; UniqueID = "\BAHXBNPD" ("\BAHXBNPD")
+Change component parameters (AddParameter): Name = "Value"; Value = "10u"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R1" ("R6"); Footprint = "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"; UniqueID = "\GTXNCPQY" ("\GTXNCPQY")
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R2" ("R4"); Footprint = "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"; UniqueID = "\IQHDCEPA" ("\IQHDCEPA")
+Change component parameters (AddParameter): Name = "Value"; Value = "5.1k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R3" ("R5"); Footprint = "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"; UniqueID = "\TGBZBHKA" ("\TGBZBHKA")
+Change component parameters (AddParameter): Name = "Value"; Value = "5.1k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R4" ("R7"); Footprint = "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"; UniqueID = "\QDJHWTJG" ("\QDJHWTJG")
+Change component parameters (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R5" ("R1"); Footprint = "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"; UniqueID = "\OIRBVYDM" ("\OIRBVYDM")
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R6" ("R2"); Footprint = "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"; UniqueID = "\JHPPGGLY" ("\JHPPGGLY")
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R7" ("R3"); Footprint = "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"; UniqueID = "\PZGNBIVU" ("\PZGNBIVU")
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1" ("U2"); Footprint = "SOT-23-5_HandSoldering"; UniqueID = "\HTASUDDK" ("\HTASUDDK")
+Change component parameters (AddParameter): Name = "Value"; Value = "MCP73831-2-OT"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U2" ("U3"); Footprint = "SOT-23-5_HandSoldering"; UniqueID = "\FAOFKNWI" ("\FAOFKNWI")
+Change component parameters (AddParameter): Name = "Value"; Value = "AP2112K-3.3"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U3" ("U1"); Footprint = "ESP32-C3-WROOM-02"; UniqueID = "\OPJLQPTC" ("\OPJLQPTC")
+Change component parameters (AddParameter): Name = "Value"; Value = "ESP32-C3-WROOM-02"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3.3V Pin=C2-1
+Added Pin To Net: NetName=+3.3V Pin=C3-1
+Added Pin To Net: NetName=+3.3V Pin=C7-1
+Added Pin To Net: NetName=+3.3V Pin=J3-1
+Added Pin To Net: NetName=+3.3V Pin=J4-1
+Added Pin To Net: NetName=+3.3V Pin=R1-1
+Added Pin To Net: NetName=+3.3V Pin=R2-1
+Added Pin To Net: NetName=+3.3V Pin=R3-1
+Added Pin To Net: NetName=+3.3V Pin=TP3-1
+Added Pin To Net: NetName=+3.3V Pin=U1-1
+Added Pin To Net: NetName=+3.3V Pin=U3-5
+Added Net: Name=+3.3V
+Added Pin To Net: NetName=+5V Pin=C4-2
+Added Pin To Net: NetName=+5V Pin=J1-A4
+Added Pin To Net: NetName=+5V Pin=J1-A9
+Added Pin To Net: NetName=+5V Pin=J1-B4
+Added Pin To Net: NetName=+5V Pin=J1-B9
+Added Pin To Net: NetName=+5V Pin=R7-2
+Added Pin To Net: NetName=+5V Pin=TP1-1
+Added Pin To Net: NetName=+5V Pin=U2-4
+Added Net: Name=+5V
+Added Pin To Net: NetName=D- Pin=J1-A7
+Added Pin To Net: NetName=D- Pin=J1-B7
+Added Pin To Net: NetName=D- Pin=U1-13
+Added Net: Name=D-
+Added Pin To Net: NetName=D+ Pin=J1-A6
+Added Pin To Net: NetName=D+ Pin=J1-B6
+Added Pin To Net: NetName=D+ Pin=U1-14
+Added Net: Name=D+
+Added Pin To Net: NetName=EN Pin=C1-1
+Added Pin To Net: NetName=EN Pin=R1-2
+Added Pin To Net: NetName=EN Pin=SW1-1
+Added Pin To Net: NetName=EN Pin=SW1-1
+Added Pin To Net: NetName=EN Pin=U1-2
+Added Net: Name=EN
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=GND Pin=J1-A1
+Added Pin To Net: NetName=GND Pin=J1-A12
+Added Pin To Net: NetName=GND Pin=J1-B1
+Added Pin To Net: NetName=GND Pin=J1-B12
+Added Pin To Net: NetName=GND Pin=J1-SH
+Added Pin To Net: NetName=GND Pin=J1-SH
+Added Pin To Net: NetName=GND Pin=J1-SH
+Added Pin To Net: NetName=GND Pin=J1-SH
+Added Pin To Net: NetName=GND Pin=J2-2
+Added Pin To Net: NetName=GND Pin=J3-2
+Added Pin To Net: NetName=GND Pin=J4-2
+Added Pin To Net: NetName=GND Pin=R4-1
+Added Pin To Net: NetName=GND Pin=R5-1
+Added Pin To Net: NetName=GND Pin=R6-1
+Added Pin To Net: NetName=GND Pin=SW1-2
+Added Pin To Net: NetName=GND Pin=SW1-2
+Added Pin To Net: NetName=GND Pin=SW2-2
+Added Pin To Net: NetName=GND Pin=SW2-2
+Added Pin To Net: NetName=GND Pin=TP2-1
+Added Pin To Net: NetName=GND Pin=U1-9
+Added Pin To Net: NetName=GND Pin=U1-19
+Added Pin To Net: NetName=GND Pin=U1-19
+Added Pin To Net: NetName=GND Pin=U1-19
+Added Pin To Net: NetName=GND Pin=U1-19
+Added Pin To Net: NetName=GND Pin=U1-19
+Added Pin To Net: NetName=GND Pin=U1-19
+Added Pin To Net: NetName=GND Pin=U1-19
+Added Pin To Net: NetName=GND Pin=U1-19
+Added Pin To Net: NetName=GND Pin=U1-19
+Added Pin To Net: NetName=GND Pin=U1-19
+Added Pin To Net: NetName=GND Pin=U1-19
+Added Pin To Net: NetName=GND Pin=U1-19
+Added Pin To Net: NetName=GND Pin=U1-19
+Added Pin To Net: NetName=GND Pin=U2-2
+Added Pin To Net: NetName=GND Pin=U3-2
+Added Net: Name=GND
+Added Pin To Net: NetName=IO9 Pin=R2-2
+Added Pin To Net: NetName=IO9 Pin=SW2-1
+Added Pin To Net: NetName=IO9 Pin=SW2-1
+Added Pin To Net: NetName=IO9 Pin=U1-8
+Added Net: Name=IO9
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=U2-1
+Added Net: Name=NetD1_1
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=NetD1_2 Pin=R7-1
+Added Net: Name=NetD1_2
+Added Pin To Net: NetName=NetJ1_A5 Pin=J1-A5
+Added Pin To Net: NetName=NetJ1_A5 Pin=R4-2
+Added Net: Name=NetJ1_A5
+Added Pin To Net: NetName=NetJ1_B5 Pin=J1-B5
+Added Pin To Net: NetName=NetJ1_B5 Pin=R5-2
+Added Net: Name=NetJ1_B5
+Added Pin To Net: NetName=NetR3_2 Pin=R3-2
+Added Pin To Net: NetName=NetR3_2 Pin=U1-7
+Added Net: Name=NetR3_2
+Added Pin To Net: NetName=NetR6_2 Pin=R6-2
+Added Pin To Net: NetName=NetR6_2 Pin=U2-5
+Added Net: Name=NetR6_2
+Added Pin To Net: NetName=SCL Pin=J3-3
+Added Pin To Net: NetName=SCL Pin=J4-3
+Added Pin To Net: NetName=SCL Pin=U1-17
+Added Net: Name=SCL
+Added Pin To Net: NetName=SDA Pin=J3-4
+Added Pin To Net: NetName=SDA Pin=J4-4
+Added Pin To Net: NetName=SDA Pin=U1-18
+Added Net: Name=SDA
+Added Pin To Net: NetName=VBAT Pin=C5-1
+Added Pin To Net: NetName=VBAT Pin=C6-1
+Added Pin To Net: NetName=VBAT Pin=J2-1
+Added Pin To Net: NetName=VBAT Pin=TP4-1
+Added Pin To Net: NetName=VBAT Pin=U2-3
+Added Pin To Net: NetName=VBAT Pin=U3-1
+Added Pin To Net: NetName=VBAT Pin=U3-3
+Added Net: Name=VBAT
+Added Member To Class: ClassName=ClarinetSensor Member=Component TP1 5V
+Added Member To Class: ClassName=ClarinetSensor Member=Component TP2 GND
+Added Member To Class: ClassName=ClarinetSensor Member=Component TP3 3.3V
+Added Member To Class: ClassName=ClarinetSensor Member=Component TP4 VBAT
