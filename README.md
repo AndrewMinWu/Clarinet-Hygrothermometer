@@ -1,6 +1,5 @@
 # Clarinet Hygrothermometer
 ![Altium](https://img.shields.io/badge/Altium_Designer-A59259?style=flat-square&logo=altiumdesigner&logoColor=white)
-![KiCad](https://img.shields.io/badge/KiCad-FFFFFF?style=flat-square&logo=kicad&logoColor=blue)
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![ESP-IDF](https://img.shields.io/badge/ESP--IDF-E7352C?style=flat-square&logo=espressif&logoColor=white)
 ![FreeRTOS](https://img.shields.io/badge/FreeRTOS-20232A?style=flat-square&logo=freertos&logoColor=white)
@@ -39,14 +38,14 @@ Having played the clarinet for over 8 years, I've grown to love my wooden instru
 
 
 ### PCB, Schematic, Finished Board
-The Schematic and PCB were designed in Altium, however I exported the gerbers (and took photos) in KiCad. All files can be found in the hardware folder. 
+The Schematic and PCB were designed in Altium. 
 
-<img src="https://github.com/user-attachments/assets/faca2936-ddf8-464d-a931-f0d31780c822" alt="Schematic" width="100%"/>
+<img width="1797" height="1186" alt="Screenshot 2026-09-27 140546" src="https://github.com/user-attachments/assets/6cc86f3e-8a40-47b4-86e6-b37cd8b7c9d0" />
 
 <table width="100%">
   <tr>
     <td width="50%"><img src="https://github.com/user-attachments/assets/1c6d121b-9e13-471a-b5f9-7dac0a3db839" alt="" width="100%"/></td>
-    <td width="50%"><img src="https://github.com/user-attachments/assets/dfbfa52e-25d6-4326-9c1f-8ae7927f5973" alt="3D Render" width="100%"/></td>
+    <td width="50%"><img src="https://github.com/user-attachments/assets/56b1d03b-f607-4696-8e5e-54394806c70b" alt="3D Render" width="100%"/></td>
 </table>
 
 
@@ -72,7 +71,6 @@ The Schematic and PCB were designed in Altium, however I exported the gerbers (a
 ## Active Development
 
 * **Power Optimization:** Moving to deep-sleep mode to extend battery life beyond the current ~30-hour calculated runtime.
-* **Altium Migration:** Rebuilding the PCB in Altium to gain experience with the software for future projects.
 * **Data Logging:** Adding BLE (Bluetooth Low Energy) services to stream the SHT31 readings to my phone to monitor changes over time (i.e. how does the humidity change depending on the season?).
 
 
